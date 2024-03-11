@@ -1,3 +1,20 @@
+const htmlBody = document.querySelector('body');
+const headHtml = document.querySelector('head');
+
+headHtml.innerHTML = ` <meta charset="UTF-8">
+                      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                      <title>RELOJ</title>`
+
+
+htmlBody.innerHTML = `  <div class="container">
+                     <div class="brillo"></div>
+                     <h1 id="tiempo">00:00:00</h1>
+                     <p id="data">date</p>
+                     </div> 
+                    
+                     `
+
+
 const contenedor = document.querySelector(".container");
 const tiempo = document.getElementById("tiempo");
 const datos = document.getElementById("data");
